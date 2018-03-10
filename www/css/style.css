@@ -1,0 +1,13 @@
+#table {
+    border: 1px solid red;
+    border-collapse: collapse;
+    background-color: #d5d5d5;
+}
+
+.desc {
+    text-align: right;
+}
+
+.val {
+    text-align: left;
+}
