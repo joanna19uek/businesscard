@@ -2,15 +2,22 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "businesscard"
-        version     = "1.0.0" >
+        version     = "1.0.1" >
 
     <name>Businesscard</name>
     <description>My businesscard</description>
     <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
         Joanna Pełeńska
     </author>
-    <platform name="android" />
+
+    <platform name="android">
+        <icon src="www/img/icon.png"/>
+        <splash src="www/img/splashscreen.png" density="land-hdpi"/>
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="SplashScreenDelay" value="3" />
+    </platform>
 
     <plugin name="cordova-plugin-device" spec="2.0.1" />
     <plugin name="cordova-plugin-dialogs" spec="2.0.1" />
+    <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
 </widget>
