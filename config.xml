@@ -12,10 +12,10 @@
 
     <platform name="android">
         <icon src="www/img/icon.png"/>
-        <splash src="img/splashscreen.png" density="port-hdpi"/>
-        <splash src="img/splashscreen.png" density="port-ldpi"/>
-        <splash src="img/splashscreen.png" density="port-mdpi"/>
-        <splash src="img/splashscreen.png" density="port-xhdpi"/>
+        <splash src="www/img/splashscreen.png" density="port-hdpi"/>
+        <splash src="www/img/splashscreen.png" density="port-ldpi"/>
+        <splash src="www/img/splashscreen.png" density="port-mdpi"/>
+        <splash src="www/img/splashscreen.png" density="port-xhdpi"/>
     </platform>
 
     <preference name="SplashScreen" value="screen" />
