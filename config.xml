@@ -12,9 +12,9 @@
 
     <platform name="android">
         <icon src="www/img/icon.png"/>
-        <splash src="www/img/splashscreen.png" density="land-hdpi"/>
+        <splash src="img/splashscreen.png" density="port-hdpi"/>
         <preference name="AutoHideSplashScreen" value="true" />
-        <preference name="SplashScreenDelay" value="10" />
+        <preference name="SplashScreenDelay" value="5" />
     </platform>
 
     <plugin name="cordova-plugin-device" spec="2.0.1" />
