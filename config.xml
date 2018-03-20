@@ -16,12 +16,12 @@
 
     <splash src="www/img/splash.png" />
     <splash platform="android" qualifier="port-hdpi" src="www/img/splashscreen.png" />
-    <!--<splash src="www/img/splashscreen.png" density="port-ldpi"/>-->
-    <!--<splash src="www/img/splashscreen.png" density="port-mdpi"/>-->
-    <!--<splash src="www/img/splashscreen.png" density="port-xhdpi"/>-->
+    <splash platform="android" qualifier="port-ldpi" src="www/img/splashscreen.png" />
+    <splash platform="android" qualifier="port-mdpi" src="www/img/splashscreen.png" />
+    <splash platform="android" qualifier="port-xhdpi" src="www/img/splashscreen.png" />
 
     <preference name="AutoHideSplashScreen" value="true" />
-    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashScreenDelay" value="2000" />
 
     <plugin name="cordova-plugin-device" spec="2.0.1" />
     <plugin name="cordova-plugin-dialogs" spec="2.0.1" />
