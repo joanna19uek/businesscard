@@ -15,10 +15,10 @@
     </platform>
 
     <splash src="www/img/splash.png" />
-    <splash src="www/img/splashscreen.png" density="port-hdpi"/>
-    <splash src="www/img/splashscreen.png" density="port-ldpi"/>
-    <splash src="www/img/splashscreen.png" density="port-mdpi"/>
-    <splash src="www/img/splashscreen.png" density="port-xhdpi"/>
+    <splash platform="android" qualifier="port-hdpi" src="www/img/splashscreen.png" />
+    <!--<splash src="www/img/splashscreen.png" density="port-ldpi"/>-->
+    <!--<splash src="www/img/splashscreen.png" density="port-mdpi"/>-->
+    <!--<splash src="www/img/splashscreen.png" density="port-xhdpi"/>-->
 
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashScreenDelay" value="3000" />
